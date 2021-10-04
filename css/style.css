@@ -1,0 +1,514 @@
+body {
+    background-color:#F0F8FF;
+}
+
+#cResultado {
+    padding:1em 1em;
+    padding-right:10em;
+    border-radius:10px;
+    position:absolute;
+    top:180px;
+    left:540px;
+}
+
+#titulo {
+    font-family: sans-serif;
+    font-size:4em;
+    position:absolute;
+    top:5px;
+    left:500px;
+}
+
+.efeito-nove {
+    font-size:4em;
+    background:#59425d;
+    border:0;
+    border-radius: 10px;
+    color:#ffffff;
+    padding:0.1em 0.3em;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.efeito-oito {
+    font-size:4em;
+    background:#59425d;
+    border:0;
+    border-radius: 10px;
+    color:#ffffff;
+    padding:0.1em 0.3em;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.efeito-sete {
+    font-size:4em;
+    background:#59425d;
+    border:0;
+    border-radius: 10px;
+    color:#ffffff;
+    padding:0.1em 0.3em;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.efeito-seis {
+    font-size:4em;
+    background:#59425d;
+    border:0;
+    border-radius: 10px;
+    color:#ffffff;
+    padding:0.1em 0.3em;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.efeito-cinco {
+    font-size:4em;
+    background:#59425d;
+    border:0;
+    border-radius: 10px;
+    color:#ffffff;
+    padding:0.1em 0.3em;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.efeito-quatro {
+    font-size:4em;
+    background:#59425d;
+    border:0;
+    border-radius: 10px;
+    color:#ffffff;
+    padding:0.1em 0.3em;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.efeito-tres {
+    font-size:4em;
+    background:#59425d;
+    border:0;
+    border-radius: 10px;
+    color:#ffffff;
+    padding:0.1em 0.3em;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.efeito-dois {
+    font-size:4em;
+    background:#59425d;
+    border:0;
+    border-radius: 10px;
+    color:#ffffff;
+    padding:0.1em 0.3em;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.efeito-um {
+    font-size:4em;
+    background:#59425d;
+    border:0;
+    border-radius: 10px;
+    color:#ffffff;
+    padding:0.1em 0.3em;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.efeito-zero {
+    font-size:4em;
+    background:#59425d;
+    border:0;
+    border-radius: 10px;
+    color:#ffffff;
+    padding:0.1em 0.3em;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.efeito-ponto {
+    font-size:4em;
+    background:#59425d;
+    border:0;
+    border-radius: 10px;
+    color:#ffffff;
+    padding:0.1em 0.3em;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.efeito-mais {
+    font-size:4em;
+    background:#59425d;
+    border:0;
+    border-radius: 10px;
+    color:#ffffff;
+    padding:0.1em 0.3em;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.efeito-menos {
+    font-size:4em;
+    background:#59425d;
+    border:0;
+    border-radius: 10px;
+    color:#ffffff;
+    padding:0.1em 0.3em;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.efeito-vezes {
+    font-size:4em;
+    background:#59425d;
+    border:0;
+    border-radius: 10px;
+    color:#ffffff;
+    padding:0.1em 0.3em;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.efeito-dividir {
+    font-size:4em;
+    background:#59425d;
+    border:0;
+    border-radius: 10px;
+    color:#ffffff;
+    padding:0.1em 0.3em;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+}
+
+
+.efeito-igual {
+    font-size:4em;
+    background:#59425d;
+    border:0;
+    border-radius: 10px;
+    color:#ffffff;
+    padding:0.1em 0.3em;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+}
+
+#nove {
+    position:absolute;
+    top:240px;
+    left:540px;
+}
+
+#oito {
+    position:absolute;
+    top:240px;
+    left:620px;
+}
+
+#sete {
+    position:absolute;
+    top:240px;
+    left:700px;
+}
+
+#seis {
+    position:absolute;
+    top:330px;
+    left:540px;
+}
+
+#cinco {
+    position:absolute;
+    top:330px;
+    left:620px;
+}
+
+#quatro {
+    position:absolute;
+    top:330px;
+    left:700px;
+}
+
+#tres {
+    position:absolute;
+    top:420px;
+    left:540px;
+}
+
+#dois {
+    position:absolute;
+    top:420px;
+    left:620px;
+}
+
+#um {
+    position:absolute;
+    top:420px;
+    left:700px;
+}
+
+#zero {
+    position:absolute;
+    top:510px;
+    left:540px;
+}
+
+#ponto {
+    position:absolute;
+    top:510px;
+    left:629.9px;
+}
+
+#mais {
+    position:absolute;
+    top:510px;
+    left:700.9px;
+}
+
+#menos {
+    position:absolute;
+    top:600px;
+    left:548px;
+}
+
+#vezes {
+    position:absolute;
+    top:600px;
+    left:630px;
+}
+
+#dividir {
+    position:absolute;
+    top:600px;
+    left:710px;
+}
+
+#igual {
+    position:absolute;
+    top:240px;
+    left:780px;
+}
+
+.efeito-nove:hover {
+    background:#ccbbff;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:none;
+}
+
+.efeito-oito:hover {
+    background:#ccbbff;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:none;
+}
+
+.efeito-sete:hover {
+    background:#ccbbff;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:none;
+}
+
+.efeito-quatro:hover {
+    background:#ccbbff;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:none;
+}
+
+.efeito-cinco:hover {
+    background:#ccbbff;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:none;
+}
+
+.efeito-seis:hover {
+    background:#ccbbff;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:none;
+}
+
+.efeito-um:hover {
+    background:#ccbbff;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:none;
+}
+
+.efeito-dois:hover {
+    background:#ccbbff;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:none;
+}
+
+.efeito-tres:hover {
+    background:#ccbbff;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:none;
+}
+
+.efeito-mais:hover {
+    background:#ccbbff;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:none;
+}
+
+.efeito-ponto:hover {
+    background:#ccbbff;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:none;
+}
+
+.efeito-zero:hover {
+    background:#ccbbff;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:none;
+}
+
+.efeito-menos:hover {
+    background:#ccbbff;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:none;
+}
+
+.efeito-vezes:hover {
+    background:#ccbbff;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:none;
+}
+
+.efeito-dividir:hover {
+    background:#ccbbff;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:none;
+}
+
+.efeito-igual:hover {
+    background:#ccbbff;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:none;
+}
+
+.valor {
+    padding:0.1em;
+    padding-right:0em;
+    border-radius:10px;
+    font-size:15px;
+    text-align:center;
+}
+
+#primeiro {
+    position:absolute;
+    top:30%;
+}
+
+#segundo {
+    position: absolute;
+    top:30%; 
+    left:12%;  
+}
+
+#terceiro {
+    position:absolute;
+    top:35%;
+}
+
+
+#quarto {
+    position:absolute;
+    top:35%;
+    left:12%;
+}
+
+#quinto {
+    position:absolute;
+    top:40%;
+    left:12%;
+}
+
+#sexto {
+    position:absolute;
+    top:40%;
+}
+
+#setimo {
+    position:absolute;
+    top:45%;
+}
+
+#oitavo {
+    position:absolute;
+    top:45%;
+    left:12%;
+}
+
+#somarr {
+    position:absolute;
+    top:30%;
+    left:10%;
+}
+
+#diminuirr {
+    position: absolute;
+    top:35%;
+    left:10%;
+}
+
+#multiplicarr {
+    position: absolute;
+    top:40%;
+    left:10%;
+}
+
+#dividirr {
+    position:absolute;
+    top:45%;
+    left:10%;
+}
+
+#igual-somar {
+    position: absolute;
+    top:30%; 
+    left:21.3%;
+}
+
+#igual-diminuir {
+    position:absolute;
+    top:35%;
+    left:21.3%;
+}
+
+#igual-multiplicar {
+    position:absolute;
+    top:40%;
+    left:21.3%;
+}
+
+#igual-dividir {
+    position:absolute;
+    top:45%;
+    left:21.3%;
+}
+
+#result-soma {
+    position: absolute;
+    top:30%; 
+    left:23.5%;
+}
+
+#result-diferenca {
+    position:absolute;
+    top:35%;
+    left:23.5%;
+}
+
+#result-multiplicacao {
+    position:absolute;
+    top:40%;
+    left:23.5%;
+}
+
+#result-divisao {
+    position:absolute;
+    top:45%;
+    left:23.5%;
+}
